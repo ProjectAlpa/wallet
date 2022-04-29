@@ -7,7 +7,7 @@ export function getDefaultTheme (isLight: boolean): Theme {
     ...defaultTheme,
     colors: {
       ...defaultTheme.colors,
-      primary: isLight ? '#ff00af' : '#EE2CB1',
+      primary: isLight ? '#968349' : '#968349',
       card: isLight ? defaultTheme.colors.card : '#262626',
       border: isLight ? defaultTheme.colors.border : '#404040'
     }

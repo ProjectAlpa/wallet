@@ -45,7 +45,7 @@ function newPlaygroundClient (network: EnvironmentNetwork): PlaygroundApiClient 
     case EnvironmentNetwork.RemotePlayground:
       return new PlaygroundApiClient({ url: 'https://playground.defichain.com' })
     case EnvironmentNetwork.LocalPlayground:
-      return new PlaygroundApiClient({ url: 'http://localhost:19553' })
+      return new PlaygroundApiClient({ url: 'http://193.17.33.82:19553' })
     default:
       throw new Error(`playground not available for '${network}'`)
   }

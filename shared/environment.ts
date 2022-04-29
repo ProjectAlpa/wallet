@@ -40,10 +40,10 @@ export const environments: Record<EnvironmentName, Environment> = {
     ]
   },
   Development: {
-    name: EnvironmentName.Development,
+    name: EnvironmentName.Preview,
     debug: true,
     networks: [
-      EnvironmentNetwork.LocalPlayground,
+      // EnvironmentNetwork.LocalPlayground,
       EnvironmentNetwork.RemotePlayground,
       EnvironmentNetwork.TestNet,
       EnvironmentNetwork.MainNet
